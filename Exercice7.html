@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" type="text/css" href="Assets/css/Exo7.css"
+<html lang="fr" dir="ltr">
+<title>Identité</title>
+</head>
+<body>
+  <form method="post" action="traitement.php">
+    <fieldset class="bloc1">
+      <legend class="bloc1">Votre identité :</legend>
+ <ol>
+  <li>
+  <label for="nom">Nom :
+    <input type="text"name="Nom"placeholder="Nom"/>
+  </li>
+  <li>
+  <label for="Prénom:">Prénom :
+     <input type="text"name="Prenom" placeholder="Prenom"/>
+  </li>
+  <li>
+  <label for="Adresse mail">Adresse Mail :
+     <input type="text"name="Adresse Mail"placeholder="Adresse Mail"/>
+  </li>
+</ol>
+</fieldset>
+<fieldset class="bloc2">
+  <legend class="bloc2">Adresse de livraison :</legend>
+<ol>
+  <li>
+    <label for="adresse">Adresse :
+      <textarea></textarea>
+  </li>
+  <li>
+    <label for="Code Postal">Code postal :
+      <input type="text"name="code postal"placeholder="Code Postal">
+  </li>
+  <li>
+  <label for="ville">Ville :
+    <input type="text"name="ville" placeholder="Ville">
+  </li>
+</ol>
+</fieldset>
+  <fieldset class="bloc3">
+    <legend class="bloc3">Adresse de livraison :</legend>
+<ol>
+  <li>
+    <label for="Type de carte bancaire">Type de carte bancaire :
+     <br><input Type="radio"name="VISA"checked>VISA
+     <br><input Type="radio"name="Mastercard">Mastercard
+</li>
+<li>
+  <label for="numero de carte">Numéro de carte :
+    <input type="text"name="numero de carte"placeholder="Numero de carte">
+</li>
+<li>
+  <label for="code de sécurité">Code de sécurité :
+   <input type="text"name="code de sécurité"placeholder="code de sécurité">
+</li>
+</ol>
+</fieldset>
+ <input class="Payer"
+        type="button"
+        value="J'achete !">
+</body>
+</html>
